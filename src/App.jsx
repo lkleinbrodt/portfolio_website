@@ -5,9 +5,13 @@ import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+
 function App() {
   return (
     <div className="App">
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      <div className="clouds"></div>
       <Header />
       <Nav />
       <About />

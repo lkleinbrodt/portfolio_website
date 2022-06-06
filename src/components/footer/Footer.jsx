@@ -4,9 +4,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      {/* <a href="#" className="footer__logo">
         Landon
-      </a>
+      </a> */}
 
       <ul className="permalinks">
         <li>

@@ -1,9 +1,9 @@
 footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
+    background: var(--color-primary-variant);
+    padding: 1.5rem 0;
     text-align: center;
     font-size: 0.8rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 footer a {
@@ -24,7 +24,13 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    /* margin: 2rem 1rem 1rem 1rem; */
+    padding-bottom: 5rem;
+
+}
+
+.permalinks a{
+    color: var(--color-light);
 }
 
 .permalinks a:hover{
