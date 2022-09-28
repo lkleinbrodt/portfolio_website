@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/me.png";
 import ReactLogo from "../../assets/logo.svg";
+import cheffrey from "../../assets/Cheffrey.png";
 
 const data = [
   {
@@ -14,15 +15,15 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: "A second cool project!",
-    details: "",
-    github: "https://github.com",
-    demo: "https://github.com",
+    image: cheffrey,
+    title: "Cheffrey",
+    details: "An AI sous-chef that helps you plan what meals to make and combines everything into an easy to read meal-plan, complete with shopping list and recipes.",
+    github: "https://github.com/lkleinbrodt/cheffrey",
+    demo: "https://lkleinbrodt-cheffrey-app-uc2hi0.streamlitapp.com",
   },
   {
     id: 3,
-    image: IMG1,
+    image: ReactLogo,
     title: "A THIRD cool project!",
     details: "",
     github: "https://github.com",
