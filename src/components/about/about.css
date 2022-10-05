@@ -42,8 +42,8 @@
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
     text-align: center;
     transition: var(--transition)
 }
@@ -57,7 +57,7 @@
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .about__card h5 {
@@ -112,4 +112,10 @@
     .about__content p {
         margin: 1.5rem 0;
     }
+}
+
+li {
+    list-style-type: circle;
+    display: list-item;
+    margin-left: 2rem;
 }

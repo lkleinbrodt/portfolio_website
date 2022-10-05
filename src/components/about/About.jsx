@@ -2,7 +2,8 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me.png";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
+import { GiBearHead } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
@@ -22,13 +23,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <small>4+ Years</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <GiBearHead className="about__icon" />
+              <h5>B.A. Statistics</h5>
+              <small>U.C. Berkeley</small>
             </article>
 
             <article className="about__card">
@@ -37,14 +38,19 @@ const About = () => {
               <small>80+</small>
             </article>
           </div>
-
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            cupiditate iste a natus quasi praesentium molestias voluptas
-            accusantium, esse quod vel eaque eum alias numquam, modi hic
-            consequatur eius rem!
-          </p>
-
+          <br></br>
+          <div>
+            Data Scientist with 4 years of experience in Asset Management developing
+             and leading ML pipelines. Proficient in:<br></br>
+            <ul>
+              <li>Data analysis and data pipelines</li> 
+              <li>Predictive modeling (Traditional and Deep Learning)</li>
+              <li>Lead generation and coverage optimization</li>
+              <li>Apps, dashboards, and data visualization</li>
+              <li>Hypothesis testing and experiment design</li>
+            </ul>
+          </div>
+          <br></br>
           <a href="#contact" className="btn btn-primary">
             Contact Me
           </a>
