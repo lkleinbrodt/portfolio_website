@@ -22,8 +22,8 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>4+ Years</small>
+              <h5>4+ Years</h5>
+              <small>Industry Experience</small>
             </article>
 
             <article className="about__card">
@@ -32,16 +32,16 @@ const About = () => {
               <small>U.C. Berkeley</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>80+</small>
-            </article>
+            </article> */}
           </div>
           <br></br>
           <div>
-            Data Scientist with 4 years of experience in Asset Management developing
-             and leading ML pipelines. Proficient in:<br></br>
+            Data Scientist with 4 years of experience in Asset Management developing 
+            and leading ML pipelines. Proficient in:<br></br>
             <ul>
               <li>Data analysis and data pipelines</li> 
               <li>Predictive modeling (Traditional and Deep Learning)</li>

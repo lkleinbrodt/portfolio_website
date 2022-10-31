@@ -19,15 +19,15 @@ const data = [
     title: "Cheffrey",
     details: "An AI sous-chef that helps you plan what meals to make and combines everything into an easy to read meal-plan, complete with shopping list and recipes.",
     github: "https://github.com/lkleinbrodt/cheffrey",
-    demo: "https://lkleinbrodt-cheffrey-app-uc2hi0.streamlitapp.com",
+    demo: "https://cheffrey.streamlitapp.com/",
   },
   {
     id: 3,
     image: ReactLogo,
-    title: "A THIRD cool project!",
-    details: "",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Baller",
+    details: "Web app that lets you enter stat lines and shows you which NBA players have achieved them.",
+    github: "https://github.com/lkleinbrodt/baller",
+    demo: "https://lkleinbrodt-baller-srcapp-evu9j0.streamlitapp.com/",
   },
 ];
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, details, github, demo }) => {
           return (
-            <article className="portfolio__item" key={id}>
+            <div className="portfolio__item" key={id}>
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
@@ -63,7 +63,7 @@ const Portfolio = () => {
                   Live Demo
                 </a>
               </div>
-            </article>
+            </div>
           );
         })}
       </div>

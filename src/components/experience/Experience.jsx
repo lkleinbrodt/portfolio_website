@@ -8,45 +8,62 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+        <div className="experience__skills">
+          <h3>Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Basic</small>
+                <h4>Data Visualization</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
-                <small className="text-light">Basic</small>
+                <h4>Machine Learning</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Javascript</h4>
-                <small className="text-light">Basic</small>
+                <h4>Natural Language Processing</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React</h4>
-                <small className="text-light">Basic</small>
+                <h4>Recommender Systems</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Data Engineering</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>App Development</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Experiment Design</h4>
               </div>
             </article>
           </div>
         </div>
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Technologies</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -67,18 +84,35 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Java</h4>
-                <small className="text-light">Basic</small>
+                <h4>SQL</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>SQL</h4>
+                <h4>Spark</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Tensorflow</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
           </div>
         </div>
       </div>

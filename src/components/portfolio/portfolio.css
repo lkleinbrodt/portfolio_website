@@ -1,7 +1,14 @@
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 2.5rem;
+}
+
+.portfolio__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
 }
 
 .portfolio__item {
@@ -9,7 +16,9 @@
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition)
+    transition: var(--transition);
+    min-height: 100px;
+    overflow: hidden;
 }
 
 .portfolio__item:hover {
@@ -20,6 +29,8 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: auto;
+    width: auto;
 }
 
 .portfolio__item h3 {
