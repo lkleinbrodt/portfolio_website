@@ -43,10 +43,10 @@ const About = () => {
             Data Scientist with 4 years of experience in Asset Management developing 
             and leading ML pipelines. Proficient in:<br></br>
             <ul>
+              <li>Machine Learning (both traditional and deep learning)</li>
               <li>Data analysis and data pipelines</li> 
-              <li>Predictive modeling (Traditional and Deep Learning)</li>
               <li>Lead generation and coverage optimization</li>
-              <li>Apps, dashboards, and data visualization</li>
+              <li>Apps, dashboards, and data visualizations</li>
               <li>Hypothesis testing and experiment design</li>
             </ul>
           </div>

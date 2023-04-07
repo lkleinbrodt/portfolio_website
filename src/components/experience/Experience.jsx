@@ -21,14 +21,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Machine Learning</h4>
+                <h4>Predictive Modeling</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Natural Language Processing</h4>
+                <h4>NLP and NLG</h4>
               </div>
             </article>
 
