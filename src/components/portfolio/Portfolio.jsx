@@ -17,15 +17,17 @@ const data = [
     id: 2,
     image: cheffrey,
     title: "Cheffrey",
-    details: "An AI sous-chef that helps you plan what meals to make and combines everything into an easy to read meal-plan, complete with shopping list and recipes.",
+    details:
+      "An AI sous-chef that helps you plan what meals to make and combines everything into an easy to read meal-plan, complete with shopping list and recipes. Available on both web and mobile.",
     github: "https://github.com/lkleinbrodt/cheffrey",
-    demo: "https://cheffrey.streamlitapp.com/",
+    demo: "https://www.cheffrey.org/",
   },
   {
     id: 3,
     image: ReactLogo,
     title: "Baller",
-    details: "Web app that lets you enter stat lines and shows you which NBA players have achieved them.",
+    details:
+      "Web app that lets you enter stat lines and shows you which NBA players have achieved them.",
     github: "https://github.com/lkleinbrodt/baller",
     demo: "https://lkleinbrodt-baller-srcapp-evu9j0.streamlitapp.com/",
   },
